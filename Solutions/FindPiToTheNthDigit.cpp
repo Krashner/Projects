@@ -21,7 +21,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	while(true)
 	{
 		cout<<"Enter how many decimal places of PI you would like to see (limited by processor):" 
-			<< endl << endl << "Decimal places:";
+		    << endl << endl << "Decimal places:";
 
 		//get user input
 		cin>>decimalPlaces;
@@ -34,7 +34,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		}else{
 			//display pi
 			cout << endl << "Pi to '" << decimalPlaces << "' decimal places is " 
-				 << fixed << setprecision(decimalPlaces) << pi << endl << endl;
+			     << fixed << setprecision(decimalPlaces) << pi << endl << endl;
 		}
 
 		cout <<"---------------------------------------------------------------------------------" << endl << endl;
