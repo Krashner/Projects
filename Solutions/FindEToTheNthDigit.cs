@@ -1,7 +1,7 @@
-﻿/*******************************************************
+/*******************************************************
 Find E to the Nth Digit
 By Justin Buttrey
-Program to find PI to a specified decimal place
+Program to find E to a specified decimal place
 ********************************************************/
 using System;
 using System.Collections.Generic;
