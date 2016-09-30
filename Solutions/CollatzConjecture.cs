@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 /*******************************************************
 Collatz Conjecture
 By Justin Buttrey
 Program to find the number of steps to 1 using the Collatz Conjecture
 ********************************************************/
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
