@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*******************************************************
+Turtle Graphics
+By Justin Buttrey
+This creates the board for the game
+********************************************************/
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
