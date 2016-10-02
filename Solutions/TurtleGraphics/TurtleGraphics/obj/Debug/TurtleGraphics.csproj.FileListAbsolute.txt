@@ -1,0 +1,6 @@
+C:\Users\Emaint\Documents\Visual Studio 2012\Projects\TurtleGraphics\TurtleGraphics\bin\Debug\TurtleGraphics.exe.config
+C:\Users\Emaint\Documents\Visual Studio 2012\Projects\TurtleGraphics\TurtleGraphics\bin\Debug\TurtleGraphics.exe
+C:\Users\Emaint\Documents\Visual Studio 2012\Projects\TurtleGraphics\TurtleGraphics\bin\Debug\TurtleGraphics.pdb
+C:\Users\Emaint\Documents\Visual Studio 2012\Projects\TurtleGraphics\TurtleGraphics\obj\Debug\TurtleGraphics.exe
+C:\Users\Emaint\Documents\Visual Studio 2012\Projects\TurtleGraphics\TurtleGraphics\obj\Debug\TurtleGraphics.pdb
+C:\Users\Emaint\documents\visual studio 2012\Projects\TurtleGraphics\TurtleGraphics\obj\Debug\TurtleGraphics.csprojResolveAssemblyReference.cache
