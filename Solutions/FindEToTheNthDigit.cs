@@ -30,7 +30,8 @@ namespace FindEToTheNthDigit
                     decimalPlace = Convert.ToInt32(Console.ReadLine());
                     //if input is less than or equal to 10 allow
                     if (decimalPlace <= 10)
-                        Console.WriteLine("\n" + "E to '" + decimalPlace + "' decimal places is " + FormatNumberNoRounding(e, decimalPlace) + "\n");
+                        Console.WriteLine("\n" + "E to '" + decimalPlace +
+                                          "' decimal places is " + FormatNumberNoRounding(e, decimalPlace) + "\n");
                     else//input too high
                         Console.WriteLine("Input too high." + "\n");
                 }
