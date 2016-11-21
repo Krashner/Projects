@@ -1,13 +1,9 @@
-﻿/*******************************************************
+/*******************************************************
 Fizz Buzz
 By Justin Buttrey
 Program that prints 1 to 100 and replaces certain numbers with text
 ********************************************************/
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FizzBuzz
 {
@@ -15,43 +11,44 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
-            string output = "";
-         
-            //prints the numbers from 1 to 100. 
-            for (int i = 0; i <= 100; i++)
-            {
-                output = i.ToString();
-
-                if (i % 3 == 0 && i % 5 == 0) //For numbers which are multiples of both three and five print “FizzBuzz”.
-                {
-                    if (i > 0)
-                    {
-                        output = "FizzBuzz";
-                    }
-                }
-                else if (i % 3 == 0)//for multiples of three print “Fizz” instead of the number
-                {
-                    output = "Fizz";
-                }
-                else if (i % 5 == 0)//for the multiples of five print “Buzz”. 
-                {
-                    output = "Buzz"; 
-                }
-
-                //prevents trailing comma
-                if (i < 100)
-                {
-                    Console.Write(output + ", ");
-                }
-                else
-                {
-                    Console.Write(output);
-                }
-            }
-
+            //write the result using recursion
+            Console.Write(Recursion(1, 100));
             //requitres input to close
             Console.ReadKey();
+        }
+      
+        static string Recursion(int a, int b)
+        {
+            string output = "";
+            //break the recursion
+            if (a > b)
+            {
+                return null;
+            }
+            //check to see if a is divisible by 3 and then by 5
+            if (DivisibleBy(a, 3))
+            {
+                output += "Fizz";
+            }
 
+            if (DivisibleBy(a, 5))
+            {
+                output += "Buzz";
+            }
+            //if not divisible then dont change the number
+            if (output == "")
+            {
+                output = a.ToString();
+            }
+
+            return output + " " + Recursion(++a, b);
+
+        }
+
+        //simple divisibitly checking
+        static bool DivisibleBy(int a, int b)
+        {
+            return a % b == 0;
         }
     }
 }
