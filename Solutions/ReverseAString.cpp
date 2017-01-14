@@ -10,7 +10,7 @@ Program that takes user input and reverses it
 
 using namespace std;
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	//the user's input
 	string userInput;
