@@ -12,7 +12,7 @@ That is that it reads the same forwards as backwards like “racecar”
 
 using namespace std;
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	//the user's input
 	string userInput;
