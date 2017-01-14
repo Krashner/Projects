@@ -32,7 +32,7 @@ int main()
 		}
 
 		cout << "The factorial using a loop is: " << factorial << endl <<
-				"The factorial using recursion is: " << factorialRecursion(userInput) << endl;
+			"The factorial using recursion is: " << factorialRecursion(userInput) << endl;
 	}
 	return 0;
 }
