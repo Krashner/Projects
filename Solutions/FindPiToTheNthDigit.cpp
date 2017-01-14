@@ -11,7 +11,7 @@ Program to find PI to a specified decimal place
 
 using namespace std;
 
-int _tmain(int argc, _TCHAR* argv[])
+int main()
 {
 	//store user input of how many decimals places
 	int decimalPlaces = 0;	
